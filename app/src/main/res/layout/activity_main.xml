@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.valentina.sqlite.MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Identificacion" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/eIdentificaion"
+        android:inputType="number"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Nombre" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/eNombre"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Nota"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/eNota"
+        android:inputType="numberDecimal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+        <Button
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Guardar"
+            android:id="@+id/bGuardar"
+            android:onClick="guardar"/>
+        <Button
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Eliminar"
+            android:id="@+id/bEliminar"
+            android:onClick="eliminar"/>
+        <Button
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Modificar"
+            android:id="@+id/bModificar"
+            android:onClick="modificar"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+        <Button
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Consultar"
+            android:id="@+id/bConsultar"
+            android:onClick="consultar"/>
+        <Button
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Limpiar"
+            android:id="@+id/bLimpiar"
+            android:onClick="limpiar"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Sqlite</string>
+    <string name="Nombre">Nombre: </string>
+    <string name="Identificacion">Identificación:</string>
+    <string name="Nota">Nota final:</string>
+    <string name="Guardar">Guardar</string>
+    <string name="Eliminar">Eliminar</string>
+    <string name="Modificar">Modificar</string>
+    <string name="Limpiar">Limpiar</string>
+    <string name="Consultar">Consultar</string>
+
+
+
+
+</resources>
